@@ -75,3 +75,32 @@ button:hover{
 .final{
   text-align: center;
 }
+/* Dark Mode Styles */
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: #ffebcd;
+}
+
+body.dark p {
+  color: #ccc;
+}
+
+body.dark button {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark button:hover {
+  background-color: #555;
+}
